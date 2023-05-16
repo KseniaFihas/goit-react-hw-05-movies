@@ -1,19 +1,19 @@
 .container {
-    padding: 20px 40px;
+  padding: 20px 40px;
 }
 
 .button {
-    display: flex;
-        align-items: center;
-        font-size: 14px;
-        border: 1px solid #0d57aa;
-        border-radius: 6px;
-        background-color: #b5d1f2;
-        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  border: 1px solid #0d57aa;
+  border-radius: 6px;
+  background-color: #b5d1f2;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .button:hover,
 .button:focus {
-    background-color: #0d57aa;
-        color: #ffffff;
+  background-color: #0d57aa;
+  color: #ffffff;
 }

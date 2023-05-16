@@ -3,22 +3,20 @@ import { Link } from 'react-router-dom';
 import css from './MovieList.module.css';
 
 const MovieList = ({ trendingMovies }) => {
-    return (
-        <div className={css.Section}>
-            <h2 className={css.title}>Trending today</h2>
-            <ul className={css.list}>
-                {trendingMovies.map(trendingMovie => (
-                    <li className={css.listItem} key={trendingMovie.id}>
-                        <Link className={css.link} to={`/movies/${trendingMovie.id}`}>
-                            {trendingMovie.title}
-                        </Link>
-                    </li>
-                ))}
-                    
-            </ul>
-            
-        </div>
-    );
+  return (
+    <div className={css.section}>
+      <h2 className={css.title}>Trending today</h2>
+      <ul className={css.list}>
+        {trendingMovies.map(trendingMovie => (
+          <li className={css.list_item} key={trendingMovie.id}>
+            <Link className={css.link} to={`/movies/${trendingMovie.id}`}>
+              {trendingMovie.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 
 export default MovieList;

@@ -1,17 +1,17 @@
-.Wrapper {
+.wrapper {
   margin-top: 30px;
   padding-right: 80px;
   padding-left: 80px;
   padding-bottom: 40px;
 }
 
-.CastHeader {
+.cast_header {
   font-size: 25px;
   font-weight: 500;
   text-align: center;
 }
 
-.CastList {
+.cast_list {
   margin-top: 30px;
   display: flex;
   align-items: center;
@@ -19,22 +19,22 @@
   flex-wrap: wrap;
 }
 
-.CastListItem {
+.cast_list_item {
   width: calc((100% - 4 * 40px) / 5);
   height: 400px;
   word-wrap: break-word;
 }
 
-.CastInfo {
+.cast_info {
   margin-top: 20px;
   max-width: 220px;
 }
 
-.CastName {
+.cast_name {
   margin-bottom: 10px;
 }
 
-.NoCastText {
+.no_cast_text {
   margin: 30px auto 0 auto;
   text-align: center;
   padding: 20px;

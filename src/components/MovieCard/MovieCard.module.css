@@ -1,74 +1,74 @@
-.Container {
-    display: flex;
-        gap: 40px;
-        margin-top: 20px;
+.container {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
 }
- .img {
-    height: 600px;
-        width: 400px;
- }
+.img {
+  height: 600px;
+  width: 400px;
+}
 
- .MovieInfo {
-    padding-top: 20px;
-        max-width: 1100px;
- }
+.movie_info {
+  padding-top: 20px;
+  max-width: 1100px;
+}
 
- .MovieName {
-    margin-bottom: 20px;
- }
+.movie_name {
+  margin-bottom: 20px;
+}
 
- .MovieInfoText:not(:last-child) {
-            margin-bottom: 20px;
- }
+.movie_info_text:not(:last-child) {
+  margin-bottom: 20px;
+}
 
- .MovieInfoTextBold {
-    display: block;
-        margin-bottom: 20px;
-        font-size: 20px;
-        font-weight: 500;
- }
- .Wrapper {
-    margin-top: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        border-top: 1px solid #d3d3d3;
-        border-bottom: 1px solid #d3d3d3;
- }
+.movie_info_text_bold {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.wrapper {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
 
- .Info {
-    font-size: 25px;
-        font-weight: 500;
- }
+.info {
+  font-size: 25px;
+  font-weight: 500;
+}
 
- .List{
-margin-top: 20px;
-    display: flex;
-    gap: 20px;
-    font-size: 18px;
- }
+.list {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
 
- .ListItem {
-display: flex;
-    align-items: center;
-    justify-content: center;
- }
+.list_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
- .Link {
-    font-size: 16px;
-        margin-right: 5px;
-        padding: 5px 15px;
-        border: 1px solid #0d57aa;
-        border-radius: 6px;
-        background-color: #b5d1f2;
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        color: #0d57aa;
- }
+.link {
+  font-size: 16px;
+  margin-right: 5px;
+  padding: 5px 15px;
+  border: 1px solid #0d57aa;
+  border-radius: 6px;
+  background-color: #b5d1f2;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #0d57aa;
+}
 
-        .link:hover,
-        .Link:focus {
-            background-color: #0d57aa;
-            color: #ffffff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
- }
+.link:hover,
+.link:focus {
+  background-color: #0d57aa;
+  color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}

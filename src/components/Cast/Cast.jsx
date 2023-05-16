@@ -20,14 +20,14 @@ const Cast = () => {
   }, [movieId]);
 
   return (
-    <div className={css.Wrapper}>
-      <h2 className={css.CastHeader}>Cast</h2>
+    <div className={css.wrapper}>
+      <h2 className={css.cast_header}>Cast</h2>
 
       {cast.length ? (
-        <ul className={css.CastList}>
+        <ul className={css.cast_list}>
           {cast.map(actor => (
-            <li className={css.CastListItem} key={actor.id}>
-              {actor.profole_path ? (
+            <li className={css.cast_list_item} key={actor.id}>
+              {actor.profile_path ? (
                 <img
                   src={`https://image.tmdb.org/t/p/w200${actor.profile_path}`}
                   alt={`${actor.name} profile`}
@@ -39,15 +39,15 @@ const Cast = () => {
                 />
               )}
 
-              <div className={css.CastInfo}>
-                <h3 className={css.CastName}>{actor.name}</h3>
+              <div className={css.cast_info}>
+                <h3 className={css.cast_name}>{actor.name}</h3>
                 <p>Character: {actor.character}</p>
               </div>
             </li>
           ))}
         </ul>
       ) : (
-        <p className={css.NoCastText}>
+        <p className={css.no_cast_text}>
           We don't have any information about the cast yet.
         </p>
       )}
