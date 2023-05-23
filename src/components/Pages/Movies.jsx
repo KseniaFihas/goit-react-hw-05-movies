@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams, useLocation } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
 import { Link } from 'react-router-dom';
-import { fetchMovieByName } from '../API/Api';
+import { fetchMovieByName } from '../../service/Api';
 import SearchMovies from '../SearchMovies/SearchMovies';
 import css from './Movies.module.css';
 

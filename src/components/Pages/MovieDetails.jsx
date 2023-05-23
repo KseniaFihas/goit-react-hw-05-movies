@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Outlet, useLocation, Link } from 'react-router-dom';
 import MovieCard from 'components/MovieCard/MovieCard';
 import { LoadingIndicator } from 'components/SharedLayout/SharedLayout';
-import { fetchMovieByID } from 'components/API/Api';
+import { fetchMovieByID } from 'service/Api';
 import css from './MovieDetails.module.css';
 
 const MovieDetails = () => {

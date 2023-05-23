@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchTrendMovies } from 'components/API/Api';
+import { fetchTrendMovies } from 'service/Api';
 import MovieList from 'components/MovieList/MovieList';
 import { LoadingIndicator } from 'components/SharedLayout/SharedLayout';
 

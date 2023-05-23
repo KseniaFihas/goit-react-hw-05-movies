@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchMovieCast } from 'components/API/Api';
+import { fetchMovieCast } from 'service/Api';
 import css from './Cast.module.css';
 
 const Cast = () => {
